@@ -1,7 +1,6 @@
-def hello(name, age)
-	puts "Welome #{name}, #{age} is definintely not too old to learn how to code."
+def monthly_payment(salary_per_annum)
+	return salary_per_annum / 12
 end
 
-hello("Rob",30)
-hello("Jane",72)
-hello("Pete",55)
+puts "If the salary ia £30,000 per year,"
+puts "the monthly payment will be #{monthly_payment(30000)}."
