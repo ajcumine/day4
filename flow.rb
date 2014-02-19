@@ -1,6 +1,7 @@
-counter = 1
+i = 0
 
-while counter <= 10
-	puts "Coding is awesome!"
-	counter += 1
+loop do
+  i += 1
+  puts "i = #{i}"
+  break if i == 10
 end
